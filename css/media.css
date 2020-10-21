@@ -1,0 +1,477 @@
+@media (max-width: 1500px) {
+    .adress__box {
+        left: 150px;
+    }
+}
+
+
+@media (max-width: 1165px) {
+    .footer__logo-box {
+        margin-right: 10px;
+    }
+    
+    .footer__nav,
+    .footer__social,
+    .footer__phone-box {
+        margin: 0 10px;
+    }
+
+    .adress__box {
+        left: 120px;
+    }
+}
+
+
+@media (max-width: 1130px) {
+    .work__steps {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .work__step {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1120px) {
+    .price__item {
+        padding: 50px 40px;
+    }
+}
+
+@media (max-width: 1026px) {
+    .price__inner{
+        display: block;
+    }
+
+    .price__item {
+        margin: 0 auto;
+        padding: 50px 30px;
+    }
+
+    
+
+    .price__item-btn {
+        margin: 0 auto;
+    }
+
+    .price__2,
+    .price__3 {
+        display: none;
+    }
+
+    .price__mobile-link {
+        display: block;
+    }
+}
+
+
+@media (max-width: 920px) {
+
+    .header__phone {
+        display: none;
+    }
+
+    .header__nav {
+        position: fixed;
+        top: 0;
+        left: 10px;
+        right: 10px;
+        z-index: 1111;
+    }
+
+    .header__menu-mobile {
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        outline: none;
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 3;
+        
+    }
+
+    .header__menu-mobile::before {
+        position: relative;
+        content: "";
+        display: block;
+        width: 44px;
+        height: 2px;
+        background-color: #333333;
+        margin-bottom: 10px;
+        transition: transform .3s;
+    }
+
+    .header__menu-mobile::after {
+        position: relative;
+        content: "";
+        display: block;
+        width: 44px;
+        height: 2px;
+        background-color: #333333;
+        transition: transform .3s;
+    }
+
+    .header__btn-line {
+        display: block;
+        width: 44px;
+        height: 2px;
+        background-color: #333333;
+        margin-bottom: 10px;
+        opacity: 1;
+        transition: opacity .5s;  
+        
+    }
+
+    .header__menu-mobile--active .header__btn-line {
+         opacity: 0;
+         transition: opacity 0;
+    }
+
+    .header__menu-mobile--active.header__menu-mobile::before {
+        transform: translateY(12px) rotate(135deg);
+    }
+
+    .header__menu-mobile--active.header__menu-mobile::after {
+        transform: translateY(-12px) rotate(-135deg);
+    }
+
+    
+    .menu__list {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: rgba(255,255,255, 0.9);
+        z-index: 2; 
+        text-align: center;
+        padding-top: 90px;
+        transform: translateY(-100%);
+        transition: transform .5s;
+    }
+    
+    .menu__list li {
+        display: block;
+        margin-bottom: 14px;
+        padding: 0;
+    }
+
+    .menu__list--active {
+        transform: translateY(0);
+    }
+
+    .header__main {
+        padding-top: 100px;
+    }
+
+    .header__info{
+        display: block;
+    }
+
+    .header__info,
+    .header__title,
+    .header__text,
+    .header__btn {
+        margin: 0 auto;
+    }
+
+    .header__title {
+        font-size: 50px;
+        line-height: 45px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .header__text {
+        font-size: 23px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .header__img-mobile {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .header__img-mobile img {
+        vertical-align: bottom;
+        height: 423px;
+        top: -48px;
+        position: relative;
+    }
+
+    .header__btn {
+        margin: 0 auto;
+        position: relative;
+        top: -55px;
+    }
+
+    .btn__border,
+    .header__about {
+        display: none;
+    }
+
+    .header__img {
+        display: none;
+    }
+
+    .price__top {
+        padding-top: 50px;
+    }
+
+    .slider__title {
+        padding-top: 70px;
+    }
+
+    .slider__main-items {
+        display: none;
+    }
+
+    .slider__items li {
+        border-bottom: 1px solid #FED100;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    .slick-btn,
+    .slick-next::before,
+    .slick-prev::before {
+        display: none;
+    }
+
+    .slider__text {
+        display: none;
+    }
+
+    .btn-phone {
+        display: block;
+    }
+
+    .reviews__inner {
+        display: block;
+    }
+
+    .reviews__item {
+        margin: 0 auto;
+    }
+
+    .reviews__phone-2,
+    .reviews__phone-3 {
+        display: none;
+    }
+
+    .form__box,
+    .modal__box {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .form__title,
+    .modal__title {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .form__text,
+    .modal__text {
+        text-align: center;
+    }
+
+    .form__box form,
+    .modal__box form {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .form__name,
+    .form__phone,
+    .modal__name,
+    .modal__phone {
+        margin: 0 0 40px 0;
+    }
+
+    .form__btn-main,
+    .modal__btn-main {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 14px;
+    }
+
+    .form__btn-border,
+    .modal__btn-border {
+        display: none;
+    }
+
+    .adress__box {
+        display: none;
+    }
+
+    .footer__inner {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .footer__logo-box {
+        margin: 0 auto;
+    }
+
+    .footer__logo {
+        margin-bottom: 15px;
+    }
+
+    .footer__politic-text {
+        margin-bottom: 20px;
+    }
+
+    .footer__agree-text {
+        margin-bottom: 35px;
+    }
+    
+    .footer__item {
+        justify-content: center;
+    }
+
+    .footer__link a {
+        margin: 0 10px 0 10px;
+    }
+
+    .footer__mail {
+        margin-bottom: 40px;
+    }
+
+    .footer__phone-box  {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .footer__item-btn {
+        margin: 0 auto;
+        
+        
+    }
+
+    .footer__item-phone {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 680px) {
+    .price__title {
+        margin-bottom: 40px;
+    }
+
+    .price__text {
+        display: none;
+    }
+
+    .price__item-title {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .work__title {
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .work__step-title {
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 5px;
+        margin: 0;
+        font-weight: 500;
+    }
+
+    .work__step-text {
+        display: none;
+    }
+
+    .slider__items li {
+        padding: 10px 30px;
+    }
+
+    #modal {
+        padding: 0;
+    }
+
+    
+}
+
+@media (max-width: 420px) {
+    .header__title {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .header__text {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 27px;
+    }
+
+    .header__btn {
+        width: 290px;
+    }
+
+    .price__title,
+    .slider__title,
+    .reviews__title  {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .slider__items li {
+        margin: 0px 5px;
+        margin-bottom: 20px;
+        padding: 10px 10px;
+    }
+
+    .reviews {
+        padding-top: 30px;
+        padding-bottom: 0;
+        min-height: 565px;
+    }
+
+    .reviews__title {
+        margin-bottom: 30px;
+        padding-top: 50px;
+    }
+
+    .reviews__item-name {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .reviews__item-data,
+    .reviews__item-text {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .form__name,
+    .form__phone {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__logo {
+        padding-top: 25px;
+    }
+}
